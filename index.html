@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="categories">
+            <h1>Select category of your quote</h1>
+            <div class="ui-select">
+                <select id="select">
+                    <script src="categories.js"></script>
+                </select>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <div id="quote-container" class="quote-container hidden">
+            <h1 id="author" >Lorem, ipsum.</h1>
+            <p id="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente debitis laboriosam velit eaque animi nemo?</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
